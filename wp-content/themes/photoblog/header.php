@@ -18,8 +18,8 @@
 	 style="display: none" />
    </div>
 <div id="top">
-<div id="header"><h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1></div>
-<div id="flickr"><a href="http://www.flickr.com"><img src="<?php bloginfo('template_directory'); ?>/images/flickr.gif" alt="Flickr" width="128" height="39" border="0" /></a></div>
+<div id="header"><h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('ratones y tortillas'); ?></a></h1></div>
+
 </div>
 
 <div id="content">

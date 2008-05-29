@@ -9,9 +9,9 @@ Author URI: http://wwww.blogohblog.com/
 
 body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#a8a8a8;background:#151515;margin:0 auto;padding:0;}
 #header{width:313px;float:left;margin:0 0 10px 20px;padding:0;}
-#header h1{text-indent:-10000px;margin:0;padding:0;}
-#header h1 a{display:block;background:url(images/logo.gif) no-repeat left;height:39px;}
-#flickr{background:url(images/flickr.gif) no-repeat;height:39px;width:128px;float:right;margin:0 25px 10px 0;padding:0;}
+#header h1{margin:0;padding:0;}
+#header h1 a{display:block;color:#fff;}
+
 #top{width:650px;height:60px;margin:0;padding:0;}
 #content{width:650px;margin:0;padding:0;}
 h2,h3,h4,h5,h6{font-size:15px;color:#fff;margin:0;padding:0 0 10px 12px;}
@@ -24,7 +24,7 @@ h2,h3,h4,h5,h6{font-size:15px;color:#fff;margin:0;padding:0 0 10px 12px;}
 img.corner,img.incorner{width:18px;height:18px;border:none;display:block !important;}
 #nav{width:600px;height:30px;line-height:30px;float:left;background:url(images/nav.gif) repeat-x;margin:0 0 10px;padding:0;}
 ul.nav{height:30px;line-height:30px;float:left;list-style:none;font-size:12px;font-weight:400;text-transform:uppercase;margin:0;padding:0;}
-ul.nav li{float:left !important;list-style-type:none;border-right:#919191 1px solid;margin:0;padding:0;}
+ul.nav li{float:left !important;list-style-type:none;border-right:#fff 1px solid;margin:0;padding:0;}
 ul.nav li a,ul.nav li a:link,ul.nav li a:visited{border-bottom:0;border-left:0;background:url(images/nav.gif) repeat-x;color:#555;float:left;display:block;text-decoration:none;padding:0 10px;}
 ul.nav li a:hover,ul.nav li a:active{background:url(images/navac.gif) repeat-x;color:#fff;text-decoration:none;}
 ul.nav li.home a{border-left:2px solid #fff;text-decoration:none;}
@@ -32,8 +32,7 @@ ul.nav li.current_page_item a{text-decoration:none;color:#fff;background:url(ima
 ul.nav li ul{float:left;margin:0;padding:0;}
 .entry img{border:none;max-width:98%;margin:10px 0;padding:5px;}
 #footer{width:600px;height:30px;text-align:center;font-size:10px;margin:0;padding:10px 0 0;}
-.postinfo{border:1px #CCC dotted;margin:10px;padding:10px;}
-.info{border:1px #CCC solid;margin:10px;padding:5px;}
+
 blockquote{padding-left:20px;border-left:5px solid #ddd;margin:15px 30px 0 10px;}
 blockquote cite{display:block;margin:5px 0 0;}
 .center{text-align:center;}
