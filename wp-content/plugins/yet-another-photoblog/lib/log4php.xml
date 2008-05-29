@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration threshold="all" debug="false">
+
+	<appender name="default" class="LoggerAppenderEcho">
+		<layout class="LoggerPatternLayout">
+			<param name="conversionPattern" value="%d{d/m/y H:i:s,u} [%t] %F(%L) %-5p: %m &lt;br&gt;" />
+		</layout>
+		<filter class="LoggerDenyAllFilter" /><!-- Nichts auf die console loggen -->
+	</appender>
+
+	<appender name="file" class="LoggerAppenderRollingFile">
+		<param name="file" value="${LOG4PHP_LOGDIR}/yapb.log" />
+		<param name="maxFileSize" value="1000KB" />
+		<param name="maxBackupIndex" value="5" />
+		<layout class="LoggerPatternLayout">
+			<param name="conversionPattern" value="%d{d/m/y H:i:s,u} [%t] %F(%L) %-5p: %m%n" />
+		</layout>
+	</appender>
+
+	<root>
+		<level value="debug" />
+		<!-- Enable for developement only --> 	
+		<!-- <appender_ref ref="default" /> -->
+		<appender_ref ref="file" />
+	</root>
+
+</configuration>

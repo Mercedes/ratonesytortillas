@@ -1,0 +1,270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yet Another Photoblog\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-10-27 23:07+0100\n"
+"Last-Translator: J.P.Jarolim <me@johannes.jarolim.com>\n"
+"Language-Team: J.P.Jarolim\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-Basepath: d:\\xampp\\htdocs\\blog\\wp-content\\plugins\\yet-another-photoblog\\\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Yapb.class.php:156
+#: tpl/admin_panel_yapb_options_page.tpl.php:309
+msgid "Yet Another Photoblog Options"
+msgstr "Yet Another Photoblog Optionen"
+
+#: Yapb.class.php:159
+msgid "Writing Options"
+msgstr "Schreiboptionen"
+
+#: Yapb.class.php:159
+msgid "These settings do alter the behaviour of the WordPress input mask for new articles."
+msgstr "Diese Einstellungen verändern das Verhalten der WordPress-Eingabemaske für neue Artikel"
+
+#: Yapb.class.php:163
+msgid "Check by default: Post date from image exif data if available."
+msgstr "Standardmäßig anhakeln: Beitragsdatum auf das EXIF-Datum setzen."
+
+#: Yapb.class.php:164
+msgid "Assign post exclusivly to category # if attaching an YAPB-image."
+msgstr "Beiträge exklusiv der Kategorie # zuweisen, wenn ein YAPB Bild eingepflegt wird."
+
+#: Yapb.class.php:169
+msgid "Enable EXIF tags filtering"
+msgstr "EXIF Tags filtern"
+
+#: Yapb.class.php:170
+msgid "Show the following EXIF tags only:"
+msgstr "Nur die folgenden EXIF Tags anzeigen:"
+
+#: Yapb.class.php:175
+msgid "YAPB notifies the following site update services if you publish a photoblog-post.<br />These services will be pinged additionally to the services defined on the options/write admin-panel.<br />Separate multiple service URIs with line breaks."
+msgstr "YAPB benachrichtigt die folgenden Dienste, wenn ein PhotoBlog Post veröffentlicht wird<br />Diese Dienste werden zusätzlich zu den Diensten benachrichtigt, die unter \"Optionen/Schreiben\" in der Administrationsmaske definiert sind.<br />Mehrere Dienste durch neue Zeilenschaltungen trennen."
+
+#: Yapb.class.php:178
+msgid "YAPB may embed images/thumbnails in your RSS2 and ATOM feeds. You will have to turn on this feature if you want to subscribe to services like <a href=\"http://photos.vfxy.com\" target=\"_blank\">VFXY</a>."
+msgstr "YAPB kann Thumbnails in RSS2 und ATOM Feeds einbinden. Man sollte dieses Feature einschalten, wenn man sich bei Diensten wie zB. <a href=\"http://photos.vfxy.com\" target=\"_blank\">VFXY</a> anmelden möchte."
+
+#: Yapb.class.php:180
+msgid "<strong>Embed images in RSS2 and ATOM feeds content.</strong>"
+msgstr "<strong>Thumbnails in RSS2 und ATOM Feeds einbetten.</strong>"
+
+#: Yapb.class.php:181
+#: Yapb.class.php:200
+#: Yapb.class.php:209
+#: Yapb.class.php:218
+msgid "Display as thumbnail with a width of #3 px"
+msgstr "Thumbnails mit einer Breite von #3 px anzeigen."
+
+#: Yapb.class.php:182
+#: Yapb.class.php:201
+#: Yapb.class.php:210
+#: Yapb.class.php:219
+msgid "Inline CSS-Style for image tag: #40"
+msgstr "Eingebetteter CSS-Style des Bild-Tags: #40"
+
+#: Yapb.class.php:183
+#: Yapb.class.php:202
+#: Yapb.class.php:211
+#: Yapb.class.php:220
+msgid "Custom HTML before image tag"
+msgstr "Eigenes HTML vor Bild-Tag"
+
+#: Yapb.class.php:184
+#: Yapb.class.php:203
+#: Yapb.class.php:212
+#: Yapb.class.php:221
+msgid "Custom HTML after image tag"
+msgstr "Eigenes HTML nach Bild-Tag"
+
+#: Yapb.class.php:189
+msgid "Automatic Template Insertion"
+msgstr "Automatisches Einfügen in Template"
+
+#: Yapb.class.php:191
+msgid "General"
+msgstr "Generell"
+
+#: Yapb.class.php:191
+msgid "Yapb does display uploaded images automatically on different sections of your site by default.<br />This is NOT exactly what i thought of when i designed and programmed YAPB - It's just a help for first-time-users.<br />To style your photoblog individually, turn off this option and have a look at <a target=\"_blank\" href=\"http://johannes.jarolim.com/blog/wordpress/yet-another-photoblog/adapting-templates/\">how to adapt themes manually</a>."
+msgstr "YAPB zeigt hochgeladene Bilder automatisch in mehreren Bereichen der Seite an.<br />Das ist NICHT wirklich dass, was ich mir bei der Programmierung von YAPB vorgestellt habe - Dies ist nur eine Hilfe für Neueinsteiger.<br /> Um das ganze eigenständiger zu gestalten, einfach das Feature deaktivieren und schauen, <a target=\"_blank\" href=\"http://johannes.jarolim.com/blog/wordpress/yet-another-photoblog/adapting-templates/\">wie man Themes manuell anpasst</a>."
+
+#: Yapb.class.php:193
+msgid "Activate automatic image rendering in general."
+msgstr "Automatisches Einfügen generell einschalten"
+
+#: Yapb.class.php:197
+msgid "Home page"
+msgstr "Startseite"
+
+#: Yapb.class.php:197
+msgid "The homepage usually shows a number of previously published posts.<br />You probably want to show thumbnails only."
+msgstr "Sie Startseite zeigt normalerweise eine Anzahl von schon veröffentlichten Beiträgen.<br />Man sollte hier nur Vorschaubilder zeigen."
+
+#: Yapb.class.php:199
+msgid "<strong>Display images on HOME page listing.</strong>"
+msgstr "<strong>Bilder in der Homepage-Aufzählung anzeigen.</strong>"
+
+#: Yapb.class.php:206
+msgid "Single Pages"
+msgstr "Einzelseiten"
+
+#: Yapb.class.php:206
+msgid "A single page shows a published post on its own.<br />You probably want to show the whole image -<br />But you can use thumbnailing here too, if you have design restrictions for example."
+msgstr "Eine Einzelseite zeigt einen einzelnen Beitrag.<br />Man sollte hier das Bild in Originalgröße zeigen -<br />Man kann hier aber zB. bei Designeinschränkungen ebenfalls nur Thumbnails anzeigen."
+
+#: Yapb.class.php:208
+msgid "<strong>Display images on SINGLE pages.</strong>"
+msgstr "<strong>Bilder auf Einzelseiten anzeigen.</strong>"
+
+#: Yapb.class.php:215
+msgid "Archive Pages"
+msgstr "Archivseiten"
+
+#: Yapb.class.php:215
+msgid "Archive pages usually show an overview of all published posts in a category, date range, etc.<br />You probably want to use thumbnails here."
+msgstr "Archivseiten zeigen normalerweise einen Überblick über alle in einer Kategorie eingeordneten Beiträge, Beiträge einer bestimmten Zeitdauer, etc.<br />Man will hier wahrscheinlich nur Thumbnails anzeigen."
+
+#: Yapb.class.php:217
+msgid "<strong>Display images on ARCHIVE overview page listings.</strong>"
+msgstr "<strong>Bilder auf Archivseiten anzeigen</strong>"
+
+#: Yapb.class.php:226
+msgid "Thumbnailer Library Options"
+msgstr "Optionen der Thumbnail Bibliothek"
+
+#: Yapb.class.php:226
+msgid "<a href=\"http://phpthumb.sourceforge.net/\" target=\"_blank\">phpThumb</a> is the thumbnailing library of my choice. For your comfort, i made available a selection of settings. For more Information refer to <a href=\"http://phpthumb.sourceforge.net/\" target=\"_blank\">http://phpthumb.sourceforge.net/</a>."
+msgstr "<a href=\"http://phpthumb.sourceforge.net/\" target=\"_blank\">phpThumb</a> ist die Software-Bibliothek meiner Wahl, um Thumbnails zu erzeugen. Um den Komfort zu erhöhen, habe ich eine kleine Auswahl der möglichen Einstellungen verfügbar gemacht. Mehr Informationen dazu kann man unter <a href=\"http://phpthumb.sourceforge.net/\" target=\"_blank\">http://phpthumb.sourceforge.net/</a> finden."
+
+#: Yapb.class.php:228
+msgid "ImageMagick configuration"
+msgstr "ImageMagick Konfiguration"
+
+#: Yapb.class.php:228
+msgid "If source image is larger than available memory limits AND ImageMagick's \"convert\" program is available on your server (<a href=\"http://www.imagemagick.org\" target=\"_blank\">more info</a>), phpThumb() will call ImageMagick to perform the thumbnailing of the source image to bypass the memory limitation."
+msgstr "Falls das Ausgangsbild größer als das vorhandene Speicherlimit sind UND ImageMagicks \"convert\"-Programm am Server verfügbar ist (<a href=\"http://www.imagemagick.org\" target=\"_blank\">mehr Informationen</a>), versucht phpThumb, Thumbnails über ImageMagick zu erstellen, um das PHP-Speicherlimit zu umgehen."
+
+#: Yapb.class.php:230
+msgid "Absolute pathname to \"convert\": #20 Leave empty if \"convert\" is in the path."
+msgstr "Absoluter Pfad zu \"convert\": #20 Leer lassen, falls \"convert\" im Pfad liegt."
+
+#: Yapb.class.php:233
+msgid "Default output configuration"
+msgstr "Standardausgabe"
+
+#: Yapb.class.php:235
+msgid "Default output format: # Thumbnail will be output in this format (if available in your version of GD)."
+msgstr "Standard-Ausgabeformat: # Thumbnails werden in diesem Dateiformat generiert (Falls es in der installierten GD-Version verfügbar ist)"
+
+#: Yapb.class.php:236
+msgid "Interlaced output for GIF/PNG, progressive output for JPEG; if unchecked: non-interlaced for GIF/PNG, baseline for JPEG."
+msgstr "Interlaced-Ausgabe für GIF/PNG, Progressive Ausgabe für JPEGs; Falls nicht angehakelt: Nicht-Interlaced für GIF/PNG, Baseline für JPEG."
+
+#: Yapb.class.php:419
+#: tpl/admin_panel_yapb_options_page.tpl.php:375
+msgid "Thumbnails"
+msgstr "Thumbnails"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:230
+msgid "Options Updated."
+msgstr "Optionen gespeichert."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:237
+msgid "Cache cleared"
+msgstr "Cache geleert."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:321
+msgid "Update Options"
+msgstr "Optionen updaten"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:326
+msgid "Maintainance"
+msgstr "Wartung"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:330
+msgid "Information / Statistics"
+msgstr "Information / Statistik"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:366
+msgid "Images"
+msgstr "Bilder"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:370
+#, php-format
+msgid "You have posted %s YAPB-Images with an overall size of %s."
+msgstr "Es wurden bis jetzt %s YAPB-Bilder mit einer Gesamtgröße von %s gespeichert."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:371
+#, php-format
+msgid "In average, an image needs %s of disk space."
+msgstr "Durchschnittlich benötigt ein Bild %s Platz."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:380
+#, php-format
+msgid "Currently, the cache contains %s thumbnails with a overall size of %s."
+msgstr "Derzeit beinhaltet der Cache %s Thumbnails mit einer Gesamtgröße von %s."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:381
+#, php-format
+msgid "In average, a thumbnail needs %s of disk space."
+msgstr "Durchschnittlich benötigt ein Thumbnail %s Platz auf der Platte."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:394
+#, php-format
+msgid "Currently, YAPB consumes %s of disk space for images."
+msgstr "Derzeit verbraucht YAPB %s Platz für Bilder."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:396
+#, php-format
+msgid "In average, %s thumbnails per image were generated."
+msgstr "Durchschnittlich wurden %s Thumbnails pro Bild generiert."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:397
+#, php-format
+msgid "In average, one posted image incl. all associated thumbnails needs approx. %s of disk space."
+msgstr "Durchschnittlich benötigt ein Bild inkl. aller zugehörigen Thumbnails ca. %s Platz."
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:405
+msgid "Cache Maintainance"
+msgstr "Cachewartung"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:407
+msgid "From time to time you may want to tidy up your thumbnail cache:"
+msgstr "Von Zeit zu Zeit möchte man eventuell den gesamten Cache leeren:"
+
+#: tpl/admin_panel_yapb_options_page.tpl.php:412
+msgid "Clear cache"
+msgstr "Cache leeren"
+
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:5
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:25
+msgid "Yapb Image"
+msgstr "YAPB Bild"
+
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:12
+msgid "Replace image:"
+msgstr "Bild ersetzen:"
+
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:13
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:28
+msgid "Post date from image exif data if available"
+msgstr "Beitragsdatum aus den Bilddaten (EXIF), wenn möglich"
+
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:14
+msgid "Remove image from post"
+msgstr "Bild aus Beitrag entfernen"
+
+#: tpl/edit_form_advanced_field_fileupload.tpl.php:27
+msgid "clear field"
+msgstr "Feld löschen"
+
+#: tpl/manage_posts_custom_column.tpl.php:5
+msgid "WordPress post"
+msgstr "WordPress Beitrag"
+

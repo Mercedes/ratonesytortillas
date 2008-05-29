@@ -1,0 +1,70 @@
+/*  
+Theme Name: Photo Blog
+Theme URI: http://www.blogohblog.com/
+Description: Photo Blog with single column. 
+Version: 1.0
+Author: Bob
+Author URI: http://wwww.blogohblog.com/
+*/
+
+body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#a8a8a8;background:#151515;margin:0 auto;padding:0;}
+#header{width:313px;float:left;margin:0 0 10px 20px;padding:0;}
+#header h1{text-indent:-10000px;margin:0;padding:0;}
+#header h1 a{display:block;background:url(images/logo.gif) no-repeat left;height:39px;}
+#flickr{background:url(images/flickr.gif) no-repeat;height:39px;width:128px;float:right;margin:0 25px 10px 0;padding:0;}
+#top{width:650px;height:60px;margin:0;padding:0;}
+#content{width:650px;margin:0;padding:0;}
+h2,h3,h4,h5,h6{font-size:15px;color:#fff;margin:0;padding:0 0 10px 12px;}
+.wrap{width:650px;background-color:#000;color:#fff;margin:20px auto;}
+.roundtop{background:url(images/tr.gif) no-repeat top right;}
+.roundbottom{background:url(images/br.gif) no-repeat top right;}
+.intop{background:url(images/int_r.gif) no-repeat top right;}
+.inbottom{background:url(images/inb_r.gif) no-repeat top right;}
+.wrap p,.whitewrap p,.entry p{text-align:justify;margin:0 10px 20px;padding:0;}
+img.corner,img.incorner{width:18px;height:18px;border:none;display:block !important;}
+#nav{width:600px;height:30px;line-height:30px;float:left;background:url(images/nav.gif) repeat-x;margin:0 0 10px;padding:0;}
+ul.nav{height:30px;line-height:30px;float:left;list-style:none;font-size:12px;font-weight:400;text-transform:uppercase;margin:0;padding:0;}
+ul.nav li{float:left !important;list-style-type:none;border-right:#919191 1px solid;margin:0;padding:0;}
+ul.nav li a,ul.nav li a:link,ul.nav li a:visited{border-bottom:0;border-left:0;background:url(images/nav.gif) repeat-x;color:#555;float:left;display:block;text-decoration:none;padding:0 10px;}
+ul.nav li a:hover,ul.nav li a:active{background:url(images/navac.gif) repeat-x;color:#fff;text-decoration:none;}
+ul.nav li.home a{border-left:2px solid #fff;text-decoration:none;}
+ul.nav li.current_page_item a{text-decoration:none;color:#fff;background:url(images/navac.gif) repeat-x;}
+ul.nav li ul{float:left;margin:0;padding:0;}
+.entry img{border:none;max-width:98%;margin:10px 0;padding:5px;}
+#footer{width:600px;height:30px;text-align:center;font-size:10px;margin:0;padding:10px 0 0;}
+.postinfo{border:1px #CCC dotted;margin:10px;padding:10px;}
+.info{border:1px #CCC solid;margin:10px;padding:5px;}
+blockquote{padding-left:20px;border-left:5px solid #ddd;margin:15px 30px 0 10px;}
+blockquote cite{display:block;margin:5px 0 0;}
+.center{text-align:center;}
+acronym,abbr,span.caps{cursor:help;}
+.wp-pagenavi a,.wp-pagenavi a:link,.wp-pagenavi a:active{text-decoration:none;border:1px dashed #ff0084;color:#0063db;background-color:#151515;margin:5px;padding:5px 10px;}
+.wp-pagenavi a:hover{border:1px dashed #000;color:#0063db;background-color:#151515;}
+.wp-pagenavi span.pages{color:#0063db;border:1px dashed #ff0084;background-color:#151515;margin:2px;padding:5px 10px;}
+.wp-pagenavi span.current{font-weight:700;border:1px dashed #0063db;color:#ff0084;background-color:#151515;margin:5px;padding:5px 10px;}
+.wp-pagenavi span.extend{border:1px dashed #000;color:#0063db;background-color:#151515;margin:5px;padding:5px 10px;}
+img.centered{display:block;margin-left:auto;margin-right:auto;}
+img.alignright{display:inline;margin:0 0 2px 7px;padding:4px;}
+img.alignleft{display:inline;margin:0 7px 2px 0;padding:4px;}
+.navigation{width:580px;margin:0;padding:10px;}
+.whitewrap,.entry{width:600px;background-color:#151515;color:#666;margin:0 auto;padding:0;}
+a:link,a:visited,a:hover,a:active{text-decoration:none;color:#fff;font-weight:700;}
+.postinfo img,.info img,img.wp-smiley,p{margin:0;padding:0;}
+#searchform{text-align:center;margin:10px auto;padding:5px 3px;}
+#sidebar #searchform #s{width:108px;padding:2px;}
+#sidebar #searchsubmit{padding:1px;}
+.boxcomments{border-top:5px solid #2c2c2c;border-bottom:5px solid #2c2c2c;margin-bottom:20px;width:600px;}
+#commentform{margin:0;padding:15px 15px 1px;}
+#commentform label{display:block;margin:0;}
+#commentform input{width:170px;border:1px solid #2c2c2c;background:#666;margin:0 5px 10px 0;padding:1px;}
+#commentform textarea{width:400px;border:1px solid #2c2c2c;background:#666;margin:0 0 10px;padding:0;}
+#commentform #submit{margin:0 0 20px;}
+#commentform p{margin:5px 0;}
+ol.commentlist{margin:0 0 1px;padding:0;}
+ol.commentlist :hover{background:#000;}
+ol.commentlist li{border-top:1px solid #2c2c2c;display:block;list-style:none;margin:0;padding:15px 15px 15px 1px;}
+ol.commentlist li :hover{background:none;}
+ol.commentlist li.commenthead{display:block;list-style:none;margin:0;padding:5px 15px;}
+ol.commentlist li.commenthead h2{margin:0;}
+ol.tblist{list-style:none;margin:0 0 1px;padding:15px;}
+ol.tblist li{display:block;list-style:none;background:transparent url(images/c.gif) 0 2px no-repeat;padding-left:15px;margin:0 0 5px;}

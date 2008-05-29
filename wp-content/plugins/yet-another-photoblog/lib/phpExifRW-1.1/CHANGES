@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------
+# phpExifReader, phpExifWriter
+# An EXIF information reader and write PHP classes.
+# Copyright (C) 2004  vinayRas Infotech
+# Licensed under terms of GNU Lesser General Public License
+# ---------------------------------------------------------------
+30 May 2005 Version 1.1
+ - Better code. Cleaner several un-wanted code.
+ - Added several additional tags that show GPS information.
+ - Fixed Shutter Speed value calculation
+ - Fixed Aperture value calculation
+ - Fixed Special characters in Make & Model
+ - Support for following Cameras added:
+ 	- KODAK DC210 Zoom (V05.00)
+ 	- OLYMPUS OPTICAL CO.,LTD -> C3000Z
+
+2-February-2004 Version 1.0
+ - Improved reading performance upto 200 times.
+ - Seperated classes to read and write exif information
+ - Added more than 50 additional tags support
+ - Tested with 9 different Camera and 20 different camera model photos.
+ - cleaned up code for better readability and enhanced performance.
+
+20-September-2003 Version 0.6
+  Added support for 'Artist' and 'Copyright' tags
+  Original datetime of image is now showing up
+  Removed all warning and some Code clean-up
+
+2-august-2003 Version 0.5
+ - Added Support for RICOH camera Images
+ - Fixed a minor bug, image dimension not showing up with several camera images.
+ - Showing JPEG Image comment
+
+6-June-2003 Version 0.4
+ - Added caching system for thumbnail storage.
+
+21-Apr-2003 Version 0.3
+ - Fixed several bugs that originated with Nikon and Canon Cameras
+
+24-Mar-2003 Version 0.2
+ - Added file 'showThumbnail.php' to show thumbnail
+   of the JPEG file extracted from EXIF information
+
+20-Mar-2003   Version 0.1
+ - initial release
+
+------------------------------------------------------------------
